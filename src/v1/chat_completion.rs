@@ -260,6 +260,7 @@ pub enum FinishReason {
     length,
     content_filter,
     tool_calls,
+    eos,
     null,
 }
 
